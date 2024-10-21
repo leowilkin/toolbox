@@ -5,6 +5,14 @@ export default [
     icon: "bag",
     items: [
       {
+        name: "Brilliant Premium",
+        description: "Free Brilliant Premium student access",
+        icon: "code",
+        external: false,
+        url: "/brilliant.mdx",
+        forUseBy: "clubbers",
+      },
+      {
         name: "Zoom Pro Meetings",
         description: "Run Zoom Pro meetings for free in your Hack Club",
         icon: "welcome",
@@ -37,6 +45,14 @@ export default [
         forUseBy: "leaders",
       },
       {
+        name: "Posters - Europe",
+        description: "If you're in Europe, get large Hack Club posters to promote your Hack Club",
+        icon: "docs-fill",
+        external: true,
+        url: "https://hack.club/eu-posters",
+        forUseBy: "leaders",
+      },
+      {
         name: "CodeDay",
         description: "Discount for in-person CodeDay events",
         icon: "event-code",
@@ -66,6 +82,14 @@ export default [
         icon: "code",
         external: true,
         url: "https://codecrafters.io/event/hackclub",
+        forUseBy: "clubbers",
+      },
+      {
+        name: "Build Your Own LLM",
+        description: "Learn to build and customize your own language model from scratch. Share your work by October 1st to get a free YubiKey and book!",
+        icon: "code",
+        external: true,
+        url: "https://hackclub.slack.com/archives/C01FXNNF6F2/p1725326501200079",
         forUseBy: "clubbers",
       },
       {
